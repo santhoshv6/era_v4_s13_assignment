@@ -1,0 +1,417 @@
+6.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.8s 3 0.00s - to python to disable frozen modules.
+6.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.3s 7 0.00s - to python to disable frozen modules.
+7.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+13.3s 9 PyTorch version: 2.6.0+cu124
+13.3s 10 CUDA available: True
+13.3s 11 GPU: Tesla P100-PCIE-16GB
+13.3s 12 CUDA version: 12.4
+13.7s 13 Using device: cuda
+13.7s 14 Disabling torch.compile and bfloat16: P100 or unsupported GPU detected.
+13.7s 15 ✓ Matrix multiplication precision set to 'high'
+13.7s 16 
+13.7s 17 Loading data from /kaggle/input/era-v4-s13-inputdata/input-1.txt...
+13.7s 18 Loaded 1,115,394 characters
+13.7s 19 Vocabulary size: 65
+13.7s 20 Total tokens: 1,115,394
+13.7s 21 
+13.7s 22 Model Configuration:
+13.7s 23 Layers: 30
+13.7s 24 Hidden size: 576
+13.7s 25 Attention heads: 9
+13.7s 26 KV heads: 3
+13.7s 27 Intermediate size: 1536
+13.7s 28 Vocab size: 65
+13.7s 29 Block size: 256
+13.7s 30 
+13.7s 31 Initializing model...
+15.6s 32 ✓ Total parameters: 106,240,896 (106.24M)
+20.0s 33 ✓ Optimizer initialized (AdamW)
+20.2s 34 
+20.2s 35 ================================================================================
+20.2s 36 PHASE 1: Training for 5000 steps
+20.2s 37 ================================================================================
+20.2s 38 
+21.2s 39 Step     0 | Loss: 4.2145 | LR: 0.000003 | Tokens/sec: 1,070
+30.4s 40 Step    50 | Loss: 2.6646 | LR: 0.000153 | Tokens/sec: 5,185
+39.5s 41 Step   100 | Loss: 2.4819 | LR: 0.000300 | Tokens/sec: 5,381
+48.7s 42 Step   150 | Loss: 2.2591 | LR: 0.000300 | Tokens/sec: 5,449
+57.8s 43 Step   200 | Loss: 2.2460 | LR: 0.000300 | Tokens/sec: 5,485
+67.0s 44 Step   250 | Loss: 1.9230 | LR: 0.000299 | Tokens/sec: 5,506
+76.1s 45 Step   300 | Loss: 2.1299 | LR: 0.000299 | Tokens/sec: 5,520
+85.3s 46 Step   350 | Loss: 1.9789 | LR: 0.000298 | Tokens/sec: 5,529
+94.5s 47 Step   400 | Loss: 1.8290 | LR: 0.000298 | Tokens/sec: 5,537
+103.7s 48 Step   450 | Loss: 1.8745 | LR: 0.000297 | Tokens/sec: 5,537
+112.9s 49 Step   500 | Loss: 1.7858 | LR: 0.000296 | Tokens/sec: 5,543
+115.6s 50 
+115.6s 51 ============================================================
+115.6s 52 Generation at step 500:
+115.6s 53 ------------------------------------------------------------
+115.6s 54 
+115.6s 55 OLINGER:
+115.6s 56 Pare, I mady, with here world as cuncer.
+115.6s 57 
+115.6s 58 MERCUTIO:
+115.6s 59 Ty, thue gives lim Romeo; knay has make
+115.6s 60 ============================================================
+115.6s 61 
+124.8s 62 Step   550 | Loss: 1.7792 | LR: 0.000295 | Tokens/sec: 5,401
+133.9s 63 Step   600 | Loss: 1.6920 | LR: 0.000293 | Tokens/sec: 5,417
+143.1s 64 Step   650 | Loss: 1.5348 | LR: 0.000292 | Tokens/sec: 5,430
+152.2s 65 Step   700 | Loss: 1.8438 | LR: 0.000290 | Tokens/sec: 5,441
+161.4s 66 Step   750 | Loss: 1.7087 | LR: 0.000289 | Tokens/sec: 5,451
+170.5s 67 Step   800 | Loss: 1.6510 | LR: 0.000287 | Tokens/sec: 5,460
+179.7s 68 Step   850 | Loss: 1.4509 | LR: 0.000285 | Tokens/sec: 5,468
+188.8s 69 Step   900 | Loss: 1.5233 | LR: 0.000283 | Tokens/sec: 5,474
+198.0s 70 Step   950 | Loss: 1.8805 | LR: 0.000281 | Tokens/sec: 5,480
+207.2s 71 Step  1000 | Loss: 1.5745 | LR: 0.000279 | Tokens/sec: 5,484
+209.8s 72 
+209.8s 73 ============================================================
+209.8s 74 Generation at step 1000:
+209.8s 75 ------------------------------------------------------------
+209.8s 76 
+209.8s 77 
+209.8s 78 
+209.8s 79 
+209.8s 80 
+209.8s 81 
+209.8s 82 
+209.8s 83 'T I falled fill as, I very no please
+209.8s 84 When first as I am be diel lines the guee;
+209.8s 85 And 'tine by
+209.8s 86 ============================================================
+209.8s 87 
+218.9s 88 Step  1050 | Loss: 1.2832 | LR: 0.000276 | Tokens/sec: 5,418
+228.1s 89 Step  1100 | Loss: 1.9189 | LR: 0.000274 | Tokens/sec: 5,426
+237.2s 90 Step  1150 | Loss: 1.4880 | LR: 0.000271 | Tokens/sec: 5,433
+246.4s 91 Step  1200 | Loss: 1.5079 | LR: 0.000268 | Tokens/sec: 5,439
+255.6s 92 Step  1250 | Loss: 1.5323 | LR: 0.000266 | Tokens/sec: 5,445
+264.7s 93 Step  1300 | Loss: 1.4654 | LR: 0.000263 | Tokens/sec: 5,450
+273.9s 94 Step  1350 | Loss: 1.6006 | LR: 0.000260 | Tokens/sec: 5,455
+283.0s 95 Step  1400 | Loss: 1.5973 | LR: 0.000257 | Tokens/sec: 5,460
+292.2s 96 Step  1450 | Loss: 1.3470 | LR: 0.000253 | Tokens/sec: 5,465
+301.4s 97 Step  1500 | Loss: 1.4488 | LR: 0.000250 | Tokens/sec: 5,469
+303.9s 98 
+303.9s 99 ============================================================
+303.9s 100 Generation at step 1500:
+303.9s 101 ------------------------------------------------------------
+303.9s 102 
+303.9s 103 HENRY BOLINGBROKE:
+303.9s 104 Sin are see thee am your worn my ftate,
+303.9s 105 What shorn you are my royal duly and war
+303.9s 106 
+303.9s 107 ============================================================
+303.9s 108 
+313.1s 109 Step  1550 | Loss: 1.4797 | LR: 0.000247 | Tokens/sec: 5,425
+322.2s 110 Step  1600 | Loss: 1.5426 | LR: 0.000243 | Tokens/sec: 5,430
+331.4s 111 Step  1650 | Loss: 1.3272 | LR: 0.000240 | Tokens/sec: 5,434
+340.6s 112 Step  1700 | Loss: 1.7142 | LR: 0.000236 | Tokens/sec: 5,439
+349.7s 113 Step  1750 | Loss: 1.2248 | LR: 0.000232 | Tokens/sec: 5,443
+358.9s 114 Step  1800 | Loss: 1.4867 | LR: 0.000229 | Tokens/sec: 5,447
+368.1s 115 Step  1850 | Loss: 1.5821 | LR: 0.000225 | Tokens/sec: 5,449
+377.3s 116 Step  1900 | Loss: 1.3652 | LR: 0.000221 | Tokens/sec: 5,453
+386.5s 117 Step  1950 | Loss: 1.4148 | LR: 0.000217 | Tokens/sec: 5,456
+395.6s 118 Step  2000 | Loss: 1.2840 | LR: 0.000213 | Tokens/sec: 5,459
+398.2s 119 
+398.2s 120 ============================================================
+398.2s 121 Generation at step 2000:
+398.2s 122 ------------------------------------------------------------
+398.2s 123 
+398.2s 124 The tap-that some on the faults and duke.
+398.2s 125 
+398.2s 126 ISABELLA:
+398.2s 127 My lord to-morrow?
+398.2s 128 
+398.2s 129 Provost:
+398.2s 130 Walk not and longi
+398.2s 131 ============================================================
+398.2s 132 
+407.3s 133 Step  2050 | Loss: 1.5283 | LR: 0.000209 | Tokens/sec: 5,427
+416.5s 134 Step  2100 | Loss: 1.5635 | LR: 0.000205 | Tokens/sec: 5,430
+425.7s 135 Step  2150 | Loss: 1.5892 | LR: 0.000201 | Tokens/sec: 5,434
+434.8s 136 Step  2200 | Loss: 1.6027 | LR: 0.000197 | Tokens/sec: 5,437
+444.0s 137 Step  2250 | Loss: 1.4291 | LR: 0.000193 | Tokens/sec: 5,440
+453.2s 138 Step  2300 | Loss: 1.4710 | LR: 0.000188 | Tokens/sec: 5,444
+462.3s 139 Step  2350 | Loss: 1.4368 | LR: 0.000184 | Tokens/sec: 5,446
+471.5s 140 Step  2400 | Loss: 1.1462 | LR: 0.000180 | Tokens/sec: 5,449
+480.7s 141 Step  2450 | Loss: 1.3270 | LR: 0.000176 | Tokens/sec: 5,452
+489.8s 142 Step  2500 | Loss: 1.2835 | LR: 0.000171 | Tokens/sec: 5,455
+492.4s 143 
+492.4s 144 ============================================================
+492.4s 145 Generation at step 2500:
+492.4s 146 ------------------------------------------------------------
+492.4s 147 
+492.4s 148 
+492.4s 149 KING RICHARD II:
+492.4s 150 Hastly, and your digniford?
+492.4s 151 
+492.4s 152 CATESBY:
+492.4s 153 
+492.4s 154 STANLEY:
+492.4s 155 Ay, mustic face, my faced.
+492.4s 156 
+492.4s 157 KING R
+492.4s 158 ============================================================
+492.4s 159 
+501.6s 160 Step  2550 | Loss: 1.2498 | LR: 0.000167 | Tokens/sec: 5,428
+510.7s 161 Step  2600 | Loss: 1.3703 | LR: 0.000163 | Tokens/sec: 5,431
+519.9s 162 Step  2650 | Loss: 1.3271 | LR: 0.000159 | Tokens/sec: 5,434
+529.1s 163 Step  2700 | Loss: 1.4291 | LR: 0.000154 | Tokens/sec: 5,436
+538.2s 164 Step  2750 | Loss: 1.2042 | LR: 0.000150 | Tokens/sec: 5,439
+547.4s 165 Step  2800 | Loss: 1.3520 | LR: 0.000146 | Tokens/sec: 5,442
+556.6s 166 Step  2850 | Loss: 1.1217 | LR: 0.000142 | Tokens/sec: 5,444
+565.7s 167 Step  2900 | Loss: 1.3137 | LR: 0.000137 | Tokens/sec: 5,446
+574.9s 168 Step  2950 | Loss: 1.6325 | LR: 0.000133 | Tokens/sec: 5,449
+584.0s 169 Step  3000 | Loss: 1.2657 | LR: 0.000129 | Tokens/sec: 5,451
+586.6s 170 
+586.6s 171 ============================================================
+586.6s 172 Generation at step 3000:
+586.6s 173 ------------------------------------------------------------
+586.6s 174 
+586.6s 175 AUTOLYCUS:
+586.6s 176 I starce the mother serve it fly the other how
+586.6s 177 not unpresumed for these will water piteou
+586.6s 178 ============================================================
+586.6s 179 
+595.7s 180 Step  3050 | Loss: 1.3435 | LR: 0.000125 | Tokens/sec: 5,430
+604.9s 181 Step  3100 | Loss: 1.2992 | LR: 0.000121 | Tokens/sec: 5,432
+614.0s 182 Step  3150 | Loss: 1.3115 | LR: 0.000117 | Tokens/sec: 5,434
+623.2s 183 Step  3200 | Loss: 1.1940 | LR: 0.000113 | Tokens/sec: 5,437
+632.5s 184 Step  3250 | Loss: 1.4336 | LR: 0.000109 | Tokens/sec: 5,438
+641.6s 185 Step  3300 | Loss: 1.3918 | LR: 0.000105 | Tokens/sec: 5,440
+650.8s 186 Step  3350 | Loss: 1.1953 | LR: 0.000101 | Tokens/sec: 5,443
+660.0s 187 Step  3400 | Loss: 1.3566 | LR: 0.000098 | Tokens/sec: 5,445
+669.2s 188 Step  3450 | Loss: 1.1893 | LR: 0.000094 | Tokens/sec: 5,446
+678.3s 189 Step  3500 | Loss: 1.1138 | LR: 0.000090 | Tokens/sec: 5,448
+680.9s 190 
+680.9s 191 ============================================================
+680.9s 192 Generation at step 3500:
+680.9s 193 ------------------------------------------------------------
+680.9s 194 
+680.9s 195 GLOUCESTER:
+680.9s 196 Both not the Lord of God's grown; and there's age
+680.9s 197 And in the joy and prince to the trium
+680.9s 198 ============================================================
+680.9s 199 
+690.0s 200 Step  3550 | Loss: 1.0033 | LR: 0.000087 | Tokens/sec: 5,429
+699.2s 201 Step  3600 | Loss: 1.1395 | LR: 0.000083 | Tokens/sec: 5,431
+708.4s 202 Step  3650 | Loss: 1.2019 | LR: 0.000080 | Tokens/sec: 5,433
+717.6s 203 Step  3700 | Loss: 1.2630 | LR: 0.000077 | Tokens/sec: 5,435
+726.8s 204 Step  3750 | Loss: 1.3140 | LR: 0.000073 | Tokens/sec: 5,437
+735.9s 205 Step  3800 | Loss: 1.2075 | LR: 0.000070 | Tokens/sec: 5,439
+745.1s 206 Step  3850 | Loss: 1.2317 | LR: 0.000067 | Tokens/sec: 5,441
+754.3s 207 Step  3900 | Loss: 1.2723 | LR: 0.000064 | Tokens/sec: 5,443
+763.4s 208 Step  3950 | Loss: 1.1076 | LR: 0.000062 | Tokens/sec: 5,444
+772.6s 209 Step  4000 | Loss: 1.2312 | LR: 0.000059 | Tokens/sec: 5,446
+775.1s 210 
+775.1s 211 ============================================================
+775.1s 212 Generation at step 4000:
+775.1s 213 ------------------------------------------------------------
+775.1s 214 
+775.1s 215 Father, I know not all this Romeo
+775.1s 216 Of Lord Grievily be as a poor fortune.
+775.1s 217 
+775.1s 218 GLOUCESTER:
+775.1s 219 My lord,
+775.1s 220 Or me
+775.1s 221 ============================================================
+775.1s 222 
+784.3s 223 Step  4050 | Loss: 1.2770 | LR: 0.000056 | Tokens/sec: 5,430
+793.5s 224 Step  4100 | Loss: 1.1261 | LR: 0.000054 | Tokens/sec: 5,432
+802.6s 225 Step  4150 | Loss: 1.2746 | LR: 0.000051 | Tokens/sec: 5,433
+811.8s 226 Step  4200 | Loss: 1.0834 | LR: 0.000049 | Tokens/sec: 5,435
+820.9s 227 Step  4250 | Loss: 1.1126 | LR: 0.000047 | Tokens/sec: 5,437
+830.1s 228 Step  4300 | Loss: 1.0740 | LR: 0.000045 | Tokens/sec: 5,439
+839.2s 229 Step  4350 | Loss: 1.2544 | LR: 0.000043 | Tokens/sec: 5,440
+848.4s 230 Step  4400 | Loss: 1.1820 | LR: 0.000041 | Tokens/sec: 5,442
+857.6s 231 Step  4450 | Loss: 1.1691 | LR: 0.000040 | Tokens/sec: 5,444
+866.7s 232 Step  4500 | Loss: 1.1641 | LR: 0.000038 | Tokens/sec: 5,445
+869.3s 233 
+869.3s 234 ============================================================
+869.3s 235 Generation at step 4500:
+869.3s 236 ------------------------------------------------------------
+869.3s 237 
+869.3s 238 
+869.3s 239 Second Servingman:
+869.3s 240 My mirth, for I have done.
+869.3s 241 
+869.3s 242 CORIOLANUS:
+869.3s 243 Hark! you, thoughts can o'er the fire, I
+869.3s 244 ============================================================
+869.3s 245 
+878.5s 246 Step  4550 | Loss: 1.1181 | LR: 0.000037 | Tokens/sec: 5,431
+887.7s 247 Step  4600 | Loss: 1.2021 | LR: 0.000035 | Tokens/sec: 5,432
+896.9s 248 Step  4650 | Loss: 1.2427 | LR: 0.000034 | Tokens/sec: 5,433
+906.0s 249 Step  4700 | Loss: 1.1000 | LR: 0.000033 | Tokens/sec: 5,435
+915.2s 250 Step  4750 | Loss: 1.0121 | LR: 0.000032 | Tokens/sec: 5,436
+924.4s 251 Step  4800 | Loss: 1.2464 | LR: 0.000032 | Tokens/sec: 5,438
+933.5s 252 Step  4850 | Loss: 1.1578 | LR: 0.000031 | Tokens/sec: 5,439
+942.7s 253 Step  4900 | Loss: 1.2057 | LR: 0.000031 | Tokens/sec: 5,441
+951.9s 254 Step  4950 | Loss: 1.1795 | LR: 0.000030 | Tokens/sec: 5,442
+960.6s 255 
+960.6s 256 ✓ Phase 1 training complete!
+960.6s 257 Total time: 15.68 minutes
+962.3s 258 
+962.3s 259 ============================================================
+962.3s 260 ✓ Checkpoint saved at step 5000
+962.3s 261 Path: checkpoints/step_5000.pt
+962.3s 262 ============================================================
+962.3s 263 
+962.5s 264 
+962.5s 265 ================================================================================
+962.5s 266 PHASE 2: Resuming from checkpoint and training 50 more steps
+962.5s 267 ================================================================================
+962.5s 268 
+963.6s 269 
+963.6s 270 ============================================================
+963.6s 271 ✓ Checkpoint loaded from step 5000
+963.6s 272 Path: checkpoints/step_5000.pt
+963.6s 273 ============================================================
+963.6s 274 
+963.6s 275 Step  5000 | Loss: 1.1319 | LR: 0.000030 | Tokens/sec: 7,762
+963.9s 276 Step  5001 | Loss: 1.0320 | LR: 0.000030 | Tokens/sec: 6,467
+963.9s 277 Step  5002 | Loss: 0.9706 | LR: 0.000030 | Tokens/sec: 6,139
+964.3s 278 Step  5003 | Loss: 1.0517 | LR: 0.000030 | Tokens/sec: 5,994
+964.3s 279 Step  5004 | Loss: 1.0271 | LR: 0.000030 | Tokens/sec: 5,908
+964.7s 280 Step  5005 | Loss: 1.0543 | LR: 0.000030 | Tokens/sec: 5,851
+964.7s 281 Step  5006 | Loss: 1.0556 | LR: 0.000030 | Tokens/sec: 5,812
+965.0s 282 Step  5007 | Loss: 1.0447 | LR: 0.000030 | Tokens/sec: 5,780
+965.0s 283 Step  5008 | Loss: 1.1580 | LR: 0.000030 | Tokens/sec: 5,758
+965.4s 284 Step  5009 | Loss: 1.0381 | LR: 0.000030 | Tokens/sec: 5,742
+965.4s 285 Step  5010 | Loss: 1.0360 | LR: 0.000030 | Tokens/sec: 5,726
+965.8s 286 Step  5011 | Loss: 1.0408 | LR: 0.000030 | Tokens/sec: 5,715
+965.8s 287 Step  5012 | Loss: 0.9961 | LR: 0.000030 | Tokens/sec: 5,705
+966.1s 288 Step  5013 | Loss: 1.0610 | LR: 0.000030 | Tokens/sec: 5,696
+966.1s 289 Step  5014 | Loss: 1.0967 | LR: 0.000030 | Tokens/sec: 5,687
+966.5s 290 Step  5015 | Loss: 1.0371 | LR: 0.000030 | Tokens/sec: 5,682
+966.5s 291 Step  5016 | Loss: 1.0451 | LR: 0.000030 | Tokens/sec: 5,674
+966.9s 292 Step  5017 | Loss: 0.9878 | LR: 0.000030 | Tokens/sec: 5,671
+966.9s 293 Step  5018 | Loss: 1.0936 | LR: 0.000030 | Tokens/sec: 5,666
+967.2s 294 Step  5019 | Loss: 1.0322 | LR: 0.000030 | Tokens/sec: 5,663
+967.2s 295 Step  5020 | Loss: 1.0669 | LR: 0.000030 | Tokens/sec: 5,659
+967.6s 296 Step  5021 | Loss: 1.0364 | LR: 0.000030 | Tokens/sec: 5,656
+967.6s 297 Step  5022 | Loss: 1.0415 | LR: 0.000030 | Tokens/sec: 5,653
+968.0s 298 Step  5023 | Loss: 1.1027 | LR: 0.000030 | Tokens/sec: 5,650
+968.0s 299 Step  5024 | Loss: 1.1323 | LR: 0.000030 | Tokens/sec: 5,647
+968.3s 300 Step  5025 | Loss: 0.9691 | LR: 0.000030 | Tokens/sec: 5,645
+968.3s 301 Step  5026 | Loss: 1.1761 | LR: 0.000030 | Tokens/sec: 5,643
+968.7s 302 Step  5027 | Loss: 1.0623 | LR: 0.000030 | Tokens/sec: 5,639
+968.7s 303 Step  5028 | Loss: 1.0130 | LR: 0.000030 | Tokens/sec: 5,637
+969.1s 304 Step  5029 | Loss: 1.1330 | LR: 0.000030 | Tokens/sec: 5,636
+969.1s 305 Step  5030 | Loss: 1.0379 | LR: 0.000030 | Tokens/sec: 5,636
+969.4s 306 Step  5031 | Loss: 1.0026 | LR: 0.000030 | Tokens/sec: 5,634
+969.4s 307 Step  5032 | Loss: 1.1578 | LR: 0.000030 | Tokens/sec: 5,633
+969.8s 308 Step  5033 | Loss: 1.1840 | LR: 0.000030 | Tokens/sec: 5,632
+969.8s 309 Step  5034 | Loss: 1.0887 | LR: 0.000030 | Tokens/sec: 5,630
+970.2s 310 Step  5035 | Loss: 1.1556 | LR: 0.000030 | Tokens/sec: 5,629
+970.2s 311 Step  5036 | Loss: 1.2558 | LR: 0.000030 | Tokens/sec: 5,628
+970.5s 312 Step  5037 | Loss: 1.1936 | LR: 0.000030 | Tokens/sec: 5,627
+970.5s 313 Step  5038 | Loss: 1.0303 | LR: 0.000030 | Tokens/sec: 5,626
+970.9s 314 Step  5039 | Loss: 1.0314 | LR: 0.000030 | Tokens/sec: 5,624
+970.9s 315 Step  5040 | Loss: 1.0297 | LR: 0.000030 | Tokens/sec: 5,621
+971.3s 316 Step  5041 | Loss: 1.0220 | LR: 0.000030 | Tokens/sec: 5,622
+971.3s 317 Step  5042 | Loss: 1.0794 | LR: 0.000030 | Tokens/sec: 5,622
+971.6s 318 Step  5043 | Loss: 1.0095 | LR: 0.000030 | Tokens/sec: 5,622
+971.6s 319 Step  5044 | Loss: 1.1710 | LR: 0.000030 | Tokens/sec: 5,621
+972.0s 320 Step  5045 | Loss: 1.1493 | LR: 0.000030 | Tokens/sec: 5,620
+972.0s 321 Step  5046 | Loss: 1.1095 | LR: 0.000030 | Tokens/sec: 5,619
+972.4s 322 Step  5047 | Loss: 1.1370 | LR: 0.000030 | Tokens/sec: 5,619
+972.4s 323 Step  5048 | Loss: 1.1466 | LR: 0.000030 | Tokens/sec: 5,618
+972.5s 324 Step  5049 | Loss: 1.0297 | LR: 0.000030 | Tokens/sec: 5,618
+972.5s 325 
+972.5s 326 ✓ Phase 2 training complete!
+972.5s 327 Total time: 0.15 minutes
+974.2s 328 
+974.2s 329 ============================================================
+974.2s 330 ✓ Checkpoint saved at step 5050
+974.2s 331 Path: checkpoints/step_5050.pt
+974.2s 332 ============================================================
+974.2s 333 
+974.2s 334 
+974.2s 335 Final checkpoint saved and checkpoint_path updated to: checkpoints/step_5050.pt
+974.4s 336 
+974.4s 337 ================================================================================
+974.4s 338 Final Generation after 5050 steps
+974.4s 339 ================================================================================
+974.4s 340 
+979.4s 341 
+979.4s 342 ?KING HENRY VI:
+979.4s 343 What, I will content to leave his lands,
+979.4s 344 And, sirely may not what I have so cold.
+979.4s 345 
+979.4s 346 GLOUCESTER:
+979.4s 347 But hence! high marched heart you spoken; and they
+979.4s 348 are sup your slain, and as the vowled
+979.4s 349 
+979.4s 350 ================================================================================
+979.5s 351 
+979.5s 352 ✓ Training logs saved to training_logs.txt
+979.6s 353 
+979.6s 354 ================================================================================
+979.6s 355 Creating deployment checkpoint...
+979.6s 356 ================================================================================
+979.6s 357 
+980.7s 358 
+980.7s 359 ================================================================================
+980.7s 360 Checkpoint Size Comparison:
+980.7s 361 ================================================================================
+980.7s 362 Full checkpoint (with optimizer):     1.19 GB
+980.7s 363 Deployment checkpoint (weights only): 0.40 GB
+980.7s 364 Size reduction: 66.7%
+980.7s 365 ================================================================================
+980.7s 366 
+980.7s 367 [SUCCESS] Deployment checkpoint is under 1 GB!
+980.7s 368 Ready for Hugging Face Spaces deployment
+980.7s 369 File: checkpoints/model_deployment.pt
+980.7s 370 
+980.7s 371 ================================================================================
+980.7s 372 
+980.7s 373 
+980.7s 374 ================================================================================
+980.7s 375 PARAMETER BREAKDOWN
+980.7s 376 ================================================================================
+980.7s 377 
+980.7s 378 Embeddings:
+980.7s 379 Token embeddings: 65 × 576 = 37,440
+980.7s 380 
+980.7s 381 Per Transformer Block:
+980.7s 382 Attention:
+980.7s 383 Q projection: 576 × 576 = 331,776
+980.7s 384 K projection: 576 × 192 = 110,592
+980.7s 385 V projection: 576 × 192 = 110,592
+980.7s 386 O projection: 576 × 576 = 331,776
+980.7s 387 Total attention: 884,736
+980.7s 388 MLP:
+980.7s 389 Gate projection: 576 × 1536 = 884,736
+980.7s 390 Up projection: 576 × 1536 = 884,736
+980.7s 391 Down projection: 1536 × 576 = 884,736
+980.7s 392 Total MLP: 2,654,208
+980.7s 393 RMSNorm: 576 × 2 = 1,152
+980.7s 394 Total per block: 3,540,096
+980.7s 395 
+980.7s 396 All 30 blocks: 3,540,096 × 30 = 106,202,880
+980.7s 397 
+980.7s 398 Final RMSNorm: 576
+980.7s 399 
+980.7s 400 Output head: 0 (tied with embeddings)
+980.7s 401 
+980.7s 402 ================================================================================
+980.7s 403 TOTAL PARAMETERS
+980.7s 404 ================================================================================
+980.7s 405 Calculated: 106,240,896 (106.24M)
+980.7s 406 Actual: 106,240,896 (106.24M)
+980.7s 407 Match: ✓
+980.7s 408 ================================================================================
+980.7s 409 
+987.3s 410 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+987.3s 411 warn(
+987.3s 412 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+987.6s 413 [NbConvertApp] Writing 75195 bytes to __notebook__.ipynb
+990.1s 414 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+990.1s 415 warn(
+990.2s 416 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+991.0s 417 [NbConvertApp] Writing 447229 bytes to __results__.html

@@ -1,0 +1,252 @@
+SmolLM2-135M Training Logs
+================================================================================
+
+Model Configuration:
+  Total Parameters: 106,240,896
+  Layers: 30
+  Hidden Size: 576
+  Attention Heads: 9
+  KV Heads: 3
+  Vocab Size: 65
+
+================================================================================
+
+Step     0 | Loss: 4.2145 | LR: 0.000003 | Tokens/sec: 1,070
+Step    50 | Loss: 2.6646 | LR: 0.000153 | Tokens/sec: 5,185
+Step   100 | Loss: 2.4819 | LR: 0.000300 | Tokens/sec: 5,381
+Step   150 | Loss: 2.2591 | LR: 0.000300 | Tokens/sec: 5,449
+Step   200 | Loss: 2.2460 | LR: 0.000300 | Tokens/sec: 5,485
+Step   250 | Loss: 1.9230 | LR: 0.000299 | Tokens/sec: 5,506
+Step   300 | Loss: 2.1299 | LR: 0.000299 | Tokens/sec: 5,520
+Step   350 | Loss: 1.9789 | LR: 0.000298 | Tokens/sec: 5,529
+Step   400 | Loss: 1.8290 | LR: 0.000298 | Tokens/sec: 5,537
+Step   450 | Loss: 1.8745 | LR: 0.000297 | Tokens/sec: 5,537
+Step   500 | Loss: 1.7858 | LR: 0.000296 | Tokens/sec: 5,543
+
+--- Generation at step 500 ---
+
+OLINGER:
+Pare, I mady, with here world as cuncer.
+
+MERCUTIO:
+Ty, thue gives lim Romeo; knay has make
+------------------------------------------------------------
+Step   550 | Loss: 1.7792 | LR: 0.000295 | Tokens/sec: 5,401
+Step   600 | Loss: 1.6920 | LR: 0.000293 | Tokens/sec: 5,417
+Step   650 | Loss: 1.5348 | LR: 0.000292 | Tokens/sec: 5,430
+Step   700 | Loss: 1.8438 | LR: 0.000290 | Tokens/sec: 5,441
+Step   750 | Loss: 1.7087 | LR: 0.000289 | Tokens/sec: 5,451
+Step   800 | Loss: 1.6510 | LR: 0.000287 | Tokens/sec: 5,460
+Step   850 | Loss: 1.4509 | LR: 0.000285 | Tokens/sec: 5,468
+Step   900 | Loss: 1.5233 | LR: 0.000283 | Tokens/sec: 5,474
+Step   950 | Loss: 1.8805 | LR: 0.000281 | Tokens/sec: 5,480
+Step  1000 | Loss: 1.5745 | LR: 0.000279 | Tokens/sec: 5,484
+
+--- Generation at step 1000 ---
+
+
+
+
+
+
+
+'T I falled fill as, I very no please
+When first as I am be diel lines the guee;
+And 'tine by 
+------------------------------------------------------------
+Step  1050 | Loss: 1.2832 | LR: 0.000276 | Tokens/sec: 5,418
+Step  1100 | Loss: 1.9189 | LR: 0.000274 | Tokens/sec: 5,426
+Step  1150 | Loss: 1.4880 | LR: 0.000271 | Tokens/sec: 5,433
+Step  1200 | Loss: 1.5079 | LR: 0.000268 | Tokens/sec: 5,439
+Step  1250 | Loss: 1.5323 | LR: 0.000266 | Tokens/sec: 5,445
+Step  1300 | Loss: 1.4654 | LR: 0.000263 | Tokens/sec: 5,450
+Step  1350 | Loss: 1.6006 | LR: 0.000260 | Tokens/sec: 5,455
+Step  1400 | Loss: 1.5973 | LR: 0.000257 | Tokens/sec: 5,460
+Step  1450 | Loss: 1.3470 | LR: 0.000253 | Tokens/sec: 5,465
+Step  1500 | Loss: 1.4488 | LR: 0.000250 | Tokens/sec: 5,469
+
+--- Generation at step 1500 ---
+
+HENRY BOLINGBROKE:
+Sin are see thee am your worn my ftate,
+What shorn you are my royal duly and war
+
+------------------------------------------------------------
+Step  1550 | Loss: 1.4797 | LR: 0.000247 | Tokens/sec: 5,425
+Step  1600 | Loss: 1.5426 | LR: 0.000243 | Tokens/sec: 5,430
+Step  1650 | Loss: 1.3272 | LR: 0.000240 | Tokens/sec: 5,434
+Step  1700 | Loss: 1.7142 | LR: 0.000236 | Tokens/sec: 5,439
+Step  1750 | Loss: 1.2248 | LR: 0.000232 | Tokens/sec: 5,443
+Step  1800 | Loss: 1.4867 | LR: 0.000229 | Tokens/sec: 5,447
+Step  1850 | Loss: 1.5821 | LR: 0.000225 | Tokens/sec: 5,449
+Step  1900 | Loss: 1.3652 | LR: 0.000221 | Tokens/sec: 5,453
+Step  1950 | Loss: 1.4148 | LR: 0.000217 | Tokens/sec: 5,456
+Step  2000 | Loss: 1.2840 | LR: 0.000213 | Tokens/sec: 5,459
+
+--- Generation at step 2000 ---
+
+The tap-that some on the faults and duke.
+
+ISABELLA:
+My lord to-morrow?
+
+Provost:
+Walk not and longi
+------------------------------------------------------------
+Step  2050 | Loss: 1.5283 | LR: 0.000209 | Tokens/sec: 5,427
+Step  2100 | Loss: 1.5635 | LR: 0.000205 | Tokens/sec: 5,430
+Step  2150 | Loss: 1.5892 | LR: 0.000201 | Tokens/sec: 5,434
+Step  2200 | Loss: 1.6027 | LR: 0.000197 | Tokens/sec: 5,437
+Step  2250 | Loss: 1.4291 | LR: 0.000193 | Tokens/sec: 5,440
+Step  2300 | Loss: 1.4710 | LR: 0.000188 | Tokens/sec: 5,444
+Step  2350 | Loss: 1.4368 | LR: 0.000184 | Tokens/sec: 5,446
+Step  2400 | Loss: 1.1462 | LR: 0.000180 | Tokens/sec: 5,449
+Step  2450 | Loss: 1.3270 | LR: 0.000176 | Tokens/sec: 5,452
+Step  2500 | Loss: 1.2835 | LR: 0.000171 | Tokens/sec: 5,455
+
+--- Generation at step 2500 ---
+
+
+KING RICHARD II:
+Hastly, and your digniford?
+
+CATESBY:
+
+STANLEY:
+Ay, mustic face, my faced.
+
+KING R
+------------------------------------------------------------
+Step  2550 | Loss: 1.2498 | LR: 0.000167 | Tokens/sec: 5,428
+Step  2600 | Loss: 1.3703 | LR: 0.000163 | Tokens/sec: 5,431
+Step  2650 | Loss: 1.3271 | LR: 0.000159 | Tokens/sec: 5,434
+Step  2700 | Loss: 1.4291 | LR: 0.000154 | Tokens/sec: 5,436
+Step  2750 | Loss: 1.2042 | LR: 0.000150 | Tokens/sec: 5,439
+Step  2800 | Loss: 1.3520 | LR: 0.000146 | Tokens/sec: 5,442
+Step  2850 | Loss: 1.1217 | LR: 0.000142 | Tokens/sec: 5,444
+Step  2900 | Loss: 1.3137 | LR: 0.000137 | Tokens/sec: 5,446
+Step  2950 | Loss: 1.6325 | LR: 0.000133 | Tokens/sec: 5,449
+Step  3000 | Loss: 1.2657 | LR: 0.000129 | Tokens/sec: 5,451
+
+--- Generation at step 3000 ---
+
+AUTOLYCUS:
+I starce the mother serve it fly the other how
+not unpresumed for these will water piteou
+------------------------------------------------------------
+Step  3050 | Loss: 1.3435 | LR: 0.000125 | Tokens/sec: 5,430
+Step  3100 | Loss: 1.2992 | LR: 0.000121 | Tokens/sec: 5,432
+Step  3150 | Loss: 1.3115 | LR: 0.000117 | Tokens/sec: 5,434
+Step  3200 | Loss: 1.1940 | LR: 0.000113 | Tokens/sec: 5,437
+Step  3250 | Loss: 1.4336 | LR: 0.000109 | Tokens/sec: 5,438
+Step  3300 | Loss: 1.3918 | LR: 0.000105 | Tokens/sec: 5,440
+Step  3350 | Loss: 1.1953 | LR: 0.000101 | Tokens/sec: 5,443
+Step  3400 | Loss: 1.3566 | LR: 0.000098 | Tokens/sec: 5,445
+Step  3450 | Loss: 1.1893 | LR: 0.000094 | Tokens/sec: 5,446
+Step  3500 | Loss: 1.1138 | LR: 0.000090 | Tokens/sec: 5,448
+
+--- Generation at step 3500 ---
+
+GLOUCESTER:
+Both not the Lord of God's grown; and there's age
+And in the joy and prince to the trium
+------------------------------------------------------------
+Step  3550 | Loss: 1.0033 | LR: 0.000087 | Tokens/sec: 5,429
+Step  3600 | Loss: 1.1395 | LR: 0.000083 | Tokens/sec: 5,431
+Step  3650 | Loss: 1.2019 | LR: 0.000080 | Tokens/sec: 5,433
+Step  3700 | Loss: 1.2630 | LR: 0.000077 | Tokens/sec: 5,435
+Step  3750 | Loss: 1.3140 | LR: 0.000073 | Tokens/sec: 5,437
+Step  3800 | Loss: 1.2075 | LR: 0.000070 | Tokens/sec: 5,439
+Step  3850 | Loss: 1.2317 | LR: 0.000067 | Tokens/sec: 5,441
+Step  3900 | Loss: 1.2723 | LR: 0.000064 | Tokens/sec: 5,443
+Step  3950 | Loss: 1.1076 | LR: 0.000062 | Tokens/sec: 5,444
+Step  4000 | Loss: 1.2312 | LR: 0.000059 | Tokens/sec: 5,446
+
+--- Generation at step 4000 ---
+
+Father, I know not all this Romeo
+Of Lord Grievily be as a poor fortune.
+
+GLOUCESTER:
+My lord,
+Or me
+------------------------------------------------------------
+Step  4050 | Loss: 1.2770 | LR: 0.000056 | Tokens/sec: 5,430
+Step  4100 | Loss: 1.1261 | LR: 0.000054 | Tokens/sec: 5,432
+Step  4150 | Loss: 1.2746 | LR: 0.000051 | Tokens/sec: 5,433
+Step  4200 | Loss: 1.0834 | LR: 0.000049 | Tokens/sec: 5,435
+Step  4250 | Loss: 1.1126 | LR: 0.000047 | Tokens/sec: 5,437
+Step  4300 | Loss: 1.0740 | LR: 0.000045 | Tokens/sec: 5,439
+Step  4350 | Loss: 1.2544 | LR: 0.000043 | Tokens/sec: 5,440
+Step  4400 | Loss: 1.1820 | LR: 0.000041 | Tokens/sec: 5,442
+Step  4450 | Loss: 1.1691 | LR: 0.000040 | Tokens/sec: 5,444
+Step  4500 | Loss: 1.1641 | LR: 0.000038 | Tokens/sec: 5,445
+
+--- Generation at step 4500 ---
+
+
+Second Servingman:
+My mirth, for I have done.
+
+CORIOLANUS:
+Hark! you, thoughts can o'er the fire, I
+------------------------------------------------------------
+Step  4550 | Loss: 1.1181 | LR: 0.000037 | Tokens/sec: 5,431
+Step  4600 | Loss: 1.2021 | LR: 0.000035 | Tokens/sec: 5,432
+Step  4650 | Loss: 1.2427 | LR: 0.000034 | Tokens/sec: 5,433
+Step  4700 | Loss: 1.1000 | LR: 0.000033 | Tokens/sec: 5,435
+Step  4750 | Loss: 1.0121 | LR: 0.000032 | Tokens/sec: 5,436
+Step  4800 | Loss: 1.2464 | LR: 0.000032 | Tokens/sec: 5,438
+Step  4850 | Loss: 1.1578 | LR: 0.000031 | Tokens/sec: 5,439
+Step  4900 | Loss: 1.2057 | LR: 0.000031 | Tokens/sec: 5,441
+Step  4950 | Loss: 1.1795 | LR: 0.000030 | Tokens/sec: 5,442
+Step  5000 | Loss: 1.1319 | LR: 0.000030 | Tokens/sec: 7,762
+Step  5001 | Loss: 1.0320 | LR: 0.000030 | Tokens/sec: 6,467
+Step  5002 | Loss: 0.9706 | LR: 0.000030 | Tokens/sec: 6,139
+Step  5003 | Loss: 1.0517 | LR: 0.000030 | Tokens/sec: 5,994
+Step  5004 | Loss: 1.0271 | LR: 0.000030 | Tokens/sec: 5,908
+Step  5005 | Loss: 1.0543 | LR: 0.000030 | Tokens/sec: 5,851
+Step  5006 | Loss: 1.0556 | LR: 0.000030 | Tokens/sec: 5,812
+Step  5007 | Loss: 1.0447 | LR: 0.000030 | Tokens/sec: 5,780
+Step  5008 | Loss: 1.1580 | LR: 0.000030 | Tokens/sec: 5,758
+Step  5009 | Loss: 1.0381 | LR: 0.000030 | Tokens/sec: 5,742
+Step  5010 | Loss: 1.0360 | LR: 0.000030 | Tokens/sec: 5,726
+Step  5011 | Loss: 1.0408 | LR: 0.000030 | Tokens/sec: 5,715
+Step  5012 | Loss: 0.9961 | LR: 0.000030 | Tokens/sec: 5,705
+Step  5013 | Loss: 1.0610 | LR: 0.000030 | Tokens/sec: 5,696
+Step  5014 | Loss: 1.0967 | LR: 0.000030 | Tokens/sec: 5,687
+Step  5015 | Loss: 1.0371 | LR: 0.000030 | Tokens/sec: 5,682
+Step  5016 | Loss: 1.0451 | LR: 0.000030 | Tokens/sec: 5,674
+Step  5017 | Loss: 0.9878 | LR: 0.000030 | Tokens/sec: 5,671
+Step  5018 | Loss: 1.0936 | LR: 0.000030 | Tokens/sec: 5,666
+Step  5019 | Loss: 1.0322 | LR: 0.000030 | Tokens/sec: 5,663
+Step  5020 | Loss: 1.0669 | LR: 0.000030 | Tokens/sec: 5,659
+Step  5021 | Loss: 1.0364 | LR: 0.000030 | Tokens/sec: 5,656
+Step  5022 | Loss: 1.0415 | LR: 0.000030 | Tokens/sec: 5,653
+Step  5023 | Loss: 1.1027 | LR: 0.000030 | Tokens/sec: 5,650
+Step  5024 | Loss: 1.1323 | LR: 0.000030 | Tokens/sec: 5,647
+Step  5025 | Loss: 0.9691 | LR: 0.000030 | Tokens/sec: 5,645
+Step  5026 | Loss: 1.1761 | LR: 0.000030 | Tokens/sec: 5,643
+Step  5027 | Loss: 1.0623 | LR: 0.000030 | Tokens/sec: 5,639
+Step  5028 | Loss: 1.0130 | LR: 0.000030 | Tokens/sec: 5,637
+Step  5029 | Loss: 1.1330 | LR: 0.000030 | Tokens/sec: 5,636
+Step  5030 | Loss: 1.0379 | LR: 0.000030 | Tokens/sec: 5,636
+Step  5031 | Loss: 1.0026 | LR: 0.000030 | Tokens/sec: 5,634
+Step  5032 | Loss: 1.1578 | LR: 0.000030 | Tokens/sec: 5,633
+Step  5033 | Loss: 1.1840 | LR: 0.000030 | Tokens/sec: 5,632
+Step  5034 | Loss: 1.0887 | LR: 0.000030 | Tokens/sec: 5,630
+Step  5035 | Loss: 1.1556 | LR: 0.000030 | Tokens/sec: 5,629
+Step  5036 | Loss: 1.2558 | LR: 0.000030 | Tokens/sec: 5,628
+Step  5037 | Loss: 1.1936 | LR: 0.000030 | Tokens/sec: 5,627
+Step  5038 | Loss: 1.0303 | LR: 0.000030 | Tokens/sec: 5,626
+Step  5039 | Loss: 1.0314 | LR: 0.000030 | Tokens/sec: 5,624
+Step  5040 | Loss: 1.0297 | LR: 0.000030 | Tokens/sec: 5,621
+Step  5041 | Loss: 1.0220 | LR: 0.000030 | Tokens/sec: 5,622
+Step  5042 | Loss: 1.0794 | LR: 0.000030 | Tokens/sec: 5,622
+Step  5043 | Loss: 1.0095 | LR: 0.000030 | Tokens/sec: 5,622
+Step  5044 | Loss: 1.1710 | LR: 0.000030 | Tokens/sec: 5,621
+Step  5045 | Loss: 1.1493 | LR: 0.000030 | Tokens/sec: 5,620
+Step  5046 | Loss: 1.1095 | LR: 0.000030 | Tokens/sec: 5,619
+Step  5047 | Loss: 1.1370 | LR: 0.000030 | Tokens/sec: 5,619
+Step  5048 | Loss: 1.1466 | LR: 0.000030 | Tokens/sec: 5,618
+Step  5049 | Loss: 1.0297 | LR: 0.000030 | Tokens/sec: 5,618
