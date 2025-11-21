@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Large model files (>100MB)
+checkpoints/*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Keep directory structure but ignore large files
+!checkpoints/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/*.txt
+!logs/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*~
