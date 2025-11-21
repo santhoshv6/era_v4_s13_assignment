@@ -33,11 +33,6 @@ checkpoints/*.pt
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-logs/*.txt
-!logs/.gitkeep
-
 # Temporary files
 *.tmp
 *.bak
