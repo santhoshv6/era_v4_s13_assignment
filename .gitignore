@@ -33,11 +33,14 @@ checkpoints/*.pt
 .DS_Store
 Thumbs.db
 
+<<<<<<< HEAD
 # # Logs
 # *.log
 # logs/*.txt
 # !logs/.gitkeep
 
+=======
+>>>>>>> fd55530fb80a49bb3bb713c8b218172bcb8dd6f5
 # Temporary files
 *.tmp
 *.bak
